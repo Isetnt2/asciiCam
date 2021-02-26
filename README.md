@@ -14,3 +14,4 @@ Requirements:
   Turning that txt file and turning it into a jpeg thanks to OpenCV and saves it as a Jpeg
   Pushes/Writes that jpeg to the virtual dummy webcam created by v4l2
   Repeat
+Default file names are content.txt/.jpeg
