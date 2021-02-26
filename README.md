@@ -1,5 +1,5 @@
 # asciiCam
-A python programm to create an ascii filter for webcams.
+A python program to create an ascii filter for webcams.
 
 Requirements:
   
