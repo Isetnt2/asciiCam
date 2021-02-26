@@ -1,17 +1,28 @@
 # asciiCam
-A python programm to create an ascii filter for webcams. \n
+A python programm to create an ascii filter for webcams.
 
-Requirements: \n
-  Linux \n
-  V4l2loopback \n
-  openCV \n
-  Pillow(A fork of PIL) \n
-  pyfakewebcam \n
+Requirements:
   
- What happens: \n
-  Caputures a frame from the webcam default is /dev/video0 \n
-  Takes that frame and turns it into asciiArt which it saves as a txt file \n
-  Turning that txt file and turning it into a jpeg thanks to OpenCV and saves it as a Jpeg \n
-  Pushes/Writes that jpeg to the virtual dummy webcam created by v4l2 \n
-  Repeat \n
+    Linux
+  
+    V4l2loopback
+  
+    openCV
+  
+    Pillow(A fork of PIL)
+  
+    pyfakewebcam
+  
+ What happens:
+  
+    Caputures a frame from the webcam default is /dev/video0
+  
+    Takes that frame and turns it into asciiArt which it saves as a txt file
+  
+    Turning that txt file and turning it into a jpeg thanks to OpenCV and saves it as a Jpeg
+  
+    Pushes/Writes that jpeg to the virtual dummy webcam created by v4l2
+  
+    Repeat
+
 Default file names are content.txt/.jpeg
