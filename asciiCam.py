@@ -10,7 +10,6 @@ from PIL import Image
 import cv2
 
 cap = cv2.VideoCapture(0)
-#cap = cv2.VideoCapture('rickroll.mpg')
 cam = pyfakewebcam.FakeWebcam('/dev/video2', 1280, 720)
 cam.print_capabilities()
 
@@ -36,10 +35,7 @@ while(True):
 	print('write to cam time: {}'.format(t4-t3))
 	t2 = timeit.default_timer()
 	print('exec time per frame: {} \n\n'.format(t2-t1))
-	#time.sleep(1./24.)
+	#time.sleep(1./24.) It's slow enough to keep the frame rate on it's own. I get about 2fps but on a faster computer this might be nessisary
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-
