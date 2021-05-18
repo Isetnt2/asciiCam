@@ -15,11 +15,11 @@ Requirements:
   
  What happens:
   
-    Caputures a frame from the webcam default is /dev/video0
+    Caputures a frame from the webcam. Default is /dev/video0
   
-    Takes that frame and turns it into asciiArt which it saves as a txt file
+    Takes that frame and turns it into asciiArt which gets saves as a txt file
   
-    Turning that txt file and turning it into a jpeg thanks to OpenCV and saves it as a Jpeg
+    Turn that txt file into a jpeg thanks to OpenCV and saves it
   
     Pushes/Writes that jpeg to the virtual dummy webcam created by v4l2
   
